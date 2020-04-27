@@ -1,0 +1,41 @@
+.footer {
+  padding: var(--spacer);
+  padding-top: calc(var(--spacer) * 5);
+  text-align: center;
+  color: var(--text-color-light);
+}
+
+.footer,
+.footer small {
+  font-size: var(--font-size-mini);
+}
+
+.footer > aside {
+  margin-top: 0;
+  margin-bottom: calc(var(--spacer) * 2);
+}
+
+.actions {
+display: flex;
+margin: 0 auto;
+width: 100%;
+max-width: 600px;
+align-items: center;
+justify-content: center;
+margin-top: calc(var(--spacer) * 2);
+margin-bottom: calc(var(--spacer) * 2);
+}
+
+.actions a {
+  text-align: center;
+  padding: 0 calc(var(--spacer) / 4);
+  font-size: 14px;
+  margin-left: calc(var(--spacer) / 2);
+  margin-right: calc(var(--spacer) / 2);
+  margin-bottom: calc(var(--spacer) / 2);
+  color: var(--text-color-light);
+}
+
+.copyright a {
+  color: inherit;
+}

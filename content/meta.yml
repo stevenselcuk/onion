@@ -1,0 +1,13 @@
+# most personal metadata can be found in ./resume.json
+
+- description: Portfolio of web &amp; ui designer/developer hybrid Matthias Kretschmann.
+  img: ../src/images/product.png
+  productImg: ../src/images/product.png
+  downloadBadgeDark: ../src/images/downloadBadgeDarg.svg
+  repo: https://github.com/stevenselcuk/garlic
+  bugs: https://github.com/stevenselcuk/garlic/issues
+
+  availability:
+    status: false
+    available: 'Download on App Store'
+    unavailable: Not available for download.

@@ -1,0 +1,13 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Build directory
+/public
+
+npm-debug.log*
+yarn-debug.log*
+plugins/gatsby-plugin-matomo
+coverage
+.env
