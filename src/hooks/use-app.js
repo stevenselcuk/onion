@@ -6,10 +6,11 @@ const query = graphql`
       basics {
         name
         label
+        summary
         storeUrl
+        ctaText
         email
         website
-        summary
         profiles {
           network
           url

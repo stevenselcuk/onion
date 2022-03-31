@@ -22,9 +22,7 @@ function Home({ pageContext }) {
       <div className={styles.hero}>
         <div className={styles.details}>
           <div className={styles.hugetitle}>checklist</div>
-          <div className={styles.desc}>
-           for general aviation pilots. on your cockpit.
-          </div>
+          <div className={styles.desc}>{basics.summary}</div>
           <div className={styles.badge}>
             <a
               href={basics.storeUrl}

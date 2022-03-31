@@ -52,8 +52,8 @@ const Navbar = () => {
         <Link to="/changelog/" activeClassName={activeClassName}>
           Changelog
         </Link>
-        <Link to={basics.storeUrl} activeClassName={activeClassName} className={styles.coolButton}>
-          Get Checklist
+        <Link to={basics.storeUrl} activeClassName={activeClassName} className={styles.ctaButton}>
+          {basics.ctaText}
         </Link>
         
       </div>

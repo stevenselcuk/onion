@@ -16,7 +16,7 @@
   /* Text Colors */
   --text-color: var(--brand-grey);
   --text-color-light: var(--brand-grey-light);
-  --color-headings: var(--brand-main);
+  --color-headings: #515D62;
 
   /* Typography */
   --font-size-root: 18px;
