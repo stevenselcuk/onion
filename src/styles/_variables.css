@@ -1,7 +1,7 @@
 :root {
   /* Colors */
-  --brand-main: #4425A7;
-  --brand-cyan: #08BDD2;
+  --brand-main: #EB534C;
+  --brand-cyan: #303237;
   --brand-main-light: #FCD981;
   --brand-light: #e7eef4;
   --brand-grey: #4e5d63;
@@ -34,7 +34,8 @@
   --line-height-small: 1.1428571429;
   --font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   --font-weight-base: 400;
-  --font-weight-bold: 700;
+  --font-weight-bold: 600;
+  --font-inter: 'Inter', sans-serif;
   --font-family-monospace: 'Menlo', 'Monaco', 'Consolas', 'Courier New',
     'monospace';
   --font-family-headings: 'Avenir Next', 'Helvetica Neue',

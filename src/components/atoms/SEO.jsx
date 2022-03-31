@@ -56,7 +56,7 @@ SEO.propTypes = {
 function SEO({ project, title, description }) {
   const meta = useMeta()
   const { basics } = useApp()
-  const theTitle = title ? title : project.title
+  const theTitle = title ? title : ""
   const theDescription = description ? description : meta.description
   const image =
     (project && project.img.childImageSharp.twitterImage.src) ||

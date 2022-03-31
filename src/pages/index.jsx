@@ -20,16 +20,15 @@ function Home({ pageContext }) {
     <>
       <SEO title={basics.name} description={basics.label} />
       <div className={styles.hero}>
-        <div>
-          <div className={styles.hugetitle}>garlic</div>
+        <div className={styles.details}>
+          <div className={styles.hugetitle}>checklist</div>
           <div className={styles.desc}>
-            can help you with finding your next awesome remote job🙌 Lives right
-            in your menubar.
+           for general aviation pilots. on your cockpit.
           </div>
           <div className={styles.badge}>
             <a
-              href="/"
-              title="Download the garlic for Remote Jobs on the App Store"
+              href={basics.storeUrl}
+              title="Get Checklist App on the App Store"
             >
               <DownloadBadge />
             </a>
@@ -39,8 +38,8 @@ function Home({ pageContext }) {
         <img
           src={image}
           className={styles.productimage}
-          alt="iMac Mockup"
-          title="garlic for Remote Jobs"
+          alt="iPad Pro 5th generation"
+          title="Checklist for General Aviation Pilots"
         />
       </div>
     </>

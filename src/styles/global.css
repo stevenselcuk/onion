@@ -1,5 +1,5 @@
 @import '_variables.css';
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap');
 *,
 *::before,
 *::after {
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: var(--font-family-base);
+  font-family: var(--font-inter);
   font-weight: var(--font-weight-base);
   font-size: var(--font-size-base);
   line-height: var(--line-height);
@@ -45,7 +45,7 @@ ol {
 
 h1 {
   font-size: var(--font-size-h1);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 h2 {
@@ -75,10 +75,10 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-family-headings);
+  font-family: var(--font-inter);
   line-height: var(--line-height-headings);
   color: var(--color-headings);
-  font-weight: var(--font-weight-headings);
+  font-weight: 600;
   margin: 0 0 var(--spacer);
 }
 
@@ -91,7 +91,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #5ebeb1;
+  color: #232528;
 }
 
 /* Media */

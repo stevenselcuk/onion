@@ -15,7 +15,12 @@ function LogoUnit({ minimal }) {
 
   return (
       <div className={minimal ? styles.minimal : styles.logounit}>
-        <p className={`p-job-title ${styles.description}`}>say henlo👋🏻</p>
+        {
+          /*
+            <p className={`p-job-title ${styles.description}`}>Find👋🏻</p>
+          */
+        }
+      
       </div>
   )
 }

@@ -3,20 +3,6 @@
     "basics": {
       "name": "Matthias Kretschmann",
       "label": "Designer & Developer",
-      "picture": {
-        "childImageSharp": {
-          "fixed": {
-            "aspectRatio": 1,
-            "width": 256,
-            "height": 256,
-            "src": "/static/b45f45aa8d98d4e4019a242d38f2f248/c296b/avatar.jpg",
-            "srcSet": "/static/b45f45aa8d98d4e4019a242d38f2f248/c296b/avatar.jpg 1x,\n/static/b45f45aa8d98d4e4019a242d38f2f248/28b3a/avatar.jpg 1.5x,\n/static/b45f45aa8d98d4e4019a242d38f2f248/72cad/avatar.jpg 2x",
-            "srcWebp": "/static/b45f45aa8d98d4e4019a242d38f2f248/59c88/avatar.webp",
-            "srcSetWebp": "/static/b45f45aa8d98d4e4019a242d38f2f248/59c88/avatar.webp 1x,\n/static/b45f45aa8d98d4e4019a242d38f2f248/bd640/avatar.webp 1.5x,\n/static/b45f45aa8d98d4e4019a242d38f2f248/b957b/avatar.webp 2x",
-            "originalName": "avatar.jpg"
-          }
-        }
-      },
       "email": "m@kretschmann.io",
       "website": "https://matthiaskretschmann.com",
       "summary": "",

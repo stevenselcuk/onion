@@ -9,7 +9,6 @@ const components = {
 }
 
 const PageTemplate = (props) => {
-  console.log(props)
   return (
     <>
       <SEO
@@ -21,7 +20,7 @@ const PageTemplate = (props) => {
           {props.children}
         </div>
       </MDXProvider>
-    </>
+      </>
   )
 }
 

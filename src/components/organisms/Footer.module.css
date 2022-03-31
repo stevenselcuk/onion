@@ -5,6 +5,7 @@
   color: var(--text-color-light);
 }
 
+
 .footer,
 .footer small {
   font-size: var(--font-size-mini);
@@ -12,9 +13,16 @@
 
 .footer > aside {
   margin-top: 0;
-  margin-bottom: calc(var(--spacer) * 2);
+  margin-bottom: 0px;
 }
-
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 300px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+}
 .actions {
 display: flex;
 margin: 0 auto;
@@ -22,8 +30,8 @@ width: 100%;
 max-width: 600px;
 align-items: center;
 justify-content: center;
-margin-top: calc(var(--spacer) * 2);
-margin-bottom: calc(var(--spacer) * 2);
+margin-top: 10px;
+margin-bottom: 20px;
 }
 
 .actions a {

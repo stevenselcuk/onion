@@ -23,7 +23,7 @@ import {
   BookOpen,
   Star,
   Info,
-  Dribbble
+  Dribbble,
 } from 'react-feather'
 import styles from './Icon.module.css'
 

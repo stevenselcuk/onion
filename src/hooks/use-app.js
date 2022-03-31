@@ -6,13 +6,7 @@ const query = graphql`
       basics {
         name
         label
-        picture {
-          childImageSharp {
-            fixed(width: 256, height: 256) {
-              ...GatsbyImageSharpFixed_withWebp_noBase64
-            }
-          }
-        }
+        storeUrl
         email
         website
         summary
@@ -25,36 +19,6 @@ const query = graphql`
           city
           countryCode
         }
-      }
-      education {
-        institution
-        area
-        studyType
-        startDate
-        endDate
-      }
-      languages {
-        language
-        fluency
-      }
-      skills {
-        name
-        level
-        keywords
-      }
-      work {
-        company
-        position
-        website
-        startDate
-        endDate
-        summary
-      }
-      awards {
-        title
-        date
-        awarder
-        summary
       }
     }
   }

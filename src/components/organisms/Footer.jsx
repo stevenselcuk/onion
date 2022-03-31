@@ -1,20 +1,31 @@
 import React, { memo } from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
-import LogoUnit from '../molecules/LogoUnit'
 import Networks from '../molecules/Networks'
 import styles from './Footer.module.css'
 import { useMeta } from '../../hooks/use-meta'
 
-
+const activeClassName = 'active'
 const FooterMarkup = ({ meta, year }) => (
   <footer className={`h-card ${styles.footer}`}>
-    <LogoUnit minimal />
-    <Networks small />
-    <p className={styles.actions}>
-      <a href={meta.repo}>Github Repository</a>
-      <a href={meta.bugs}>Found a bug?</a>
-      <a href={meta.bugs}>Get this Gatsby theme</a>
-    </p>
+    <div className={styles.links}>
+      <Link to="/privacy-policy/" activeClassName={activeClassName}>
+        Privacy Policy
+      </Link>
+      <Link to="/disclaimer/" activeClassName={activeClassName}>
+        Disclaimer
+      </Link>
+    </div>
+
+    {/*
+     <Networks small />
+ <p className={styles.actions}>
+ <a href={meta.repo}>Github Repository</a>
+ <a href={meta.bugs}>Found a bug?</a>
+ <a href={meta.bugs}>Get this Gatsby theme</a>
+</p>
+*/}
+
     <p className={styles.copyright}>
       <small>
         &copy; {year}{' '}
