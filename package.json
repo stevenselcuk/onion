@@ -1,9 +1,9 @@
 {
-  "name": "garlic-website",
-  "description": "Website for garlic",
+  "name": "onion-gatsby-template",
+  "description": "Gatsby Starter Theme for App Landing Page",
   "version": "0.0.1",
-  "homepage": "https://garlic.netlify.com",
-  "repository": "github:stevenselcuk/garlic",
+  "homepage": "https://theonion.netlify.app/",
+  "repository": "github:stevenselcuk/onion",
   "license": "MIT",
   "author": "Steven J. Selcuk <stevenjselcuk@gmail.com>",
   "scripts": {
@@ -34,7 +34,6 @@
     "gatsby-plugin-sitemap": "^2.3.5",
     "gatsby-plugin-styled-components": "^3.2.4",
     "gatsby-plugin-svgr": "^2.0.2",
-    "gatsby-plugin-use-dark-mode": "^1.1.2",
     "gatsby-plugin-webpack-size": "^1.0.0",
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-json": "^2.3.3",
