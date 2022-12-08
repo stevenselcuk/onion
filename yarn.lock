@@ -5680,9 +5680,9 @@ decode-named-character-reference@^1.0.0:
     character-entities "^2.0.0"
 
 decode-uri-component@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
-  integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.2.tgz#e69dbe25d37941171dd540e024c444cd5188e1e9"
+  integrity sha512-FqUYQ+8o158GyGTrMFJms9qh3CqTKvAqgqsTnkLI8sKu0028orqBhxNMFkFen0zGyg6epACD32pjVk58ngIErQ==
 
 decompress-response@^3.2.0, decompress-response@^3.3.0:
   version "3.3.0"
@@ -7895,14 +7895,6 @@ gatsby-plugin-typescript@^2.12.1:
     "@babel/preset-typescript" "^7.12.1"
     "@babel/runtime" "^7.12.5"
     babel-plugin-remove-graphql-queries "^2.16.1"
-
-gatsby-plugin-use-dark-mode@^1.1.2:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-use-dark-mode/-/gatsby-plugin-use-dark-mode-1.4.0.tgz#638286ac43b6b5dbb1b3919d2565d8884ecfa69f"
-  integrity sha512-FpNLBXlT02Bye/7fZfkrYT+92wFwKYQT/OVO/4ee5OcmgUOxL+jgRUAChvVf8KaNoQ5WUizOGU7SeJpMd7/+hA==
-  dependencies:
-    prop-types "^15.7.2"
-    terser "^4.0.0"
 
 gatsby-plugin-utils@^0.9.0:
   version "0.9.0"
@@ -17035,7 +17027,7 @@ terser-webpack-plugin@^2.3.8:
     terser "^4.6.12"
     webpack-sources "^1.4.3"
 
-terser@^4.0.0, terser@^4.1.2, terser@^4.6.12:
+terser@^4.1.2, terser@^4.6.12:
   version "4.8.0"
   resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
   integrity sha512-EAPipTNeWsb/3wLPeup1tVPaXfIaU68xMnVdPafIL1TV05OhASArYyIfFvnvJCNrR2NIOvDVNNTFRa+Re2MWyw==
